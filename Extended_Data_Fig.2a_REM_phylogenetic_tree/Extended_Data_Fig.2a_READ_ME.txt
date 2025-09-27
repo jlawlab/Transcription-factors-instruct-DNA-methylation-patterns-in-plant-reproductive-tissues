@@ -1,0 +1,13 @@
+#Written by Laura M. Martins.
+
+#This analysis reconstructs a phylogeny for 46 REM genes using two custom scripts:
+#	LM_REM_phylogenetic_tree.bash — alignment and tree inference
+#	LM_Phylo_Tree_Visualization.r — visualization
+
+
+#REM phylogenetic tree step by step:
+#	1. REM sequence alignment using MAFFT.
+
+#	2. Phylogenetic tree construction using IQ-TREE2 with ultrafast bootstrap.
+
+#	3. Tree visualization using the following R packages: ape, ggtree, and ggplot2.
