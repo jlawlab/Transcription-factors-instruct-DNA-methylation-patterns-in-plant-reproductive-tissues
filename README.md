@@ -1,6 +1,4 @@
-### README
-Code and example datasets used in the publication **Xu et al. Transcription factors instruct DNA methylation patterns in plant reproductive tissues (2025) Nature Cell Biology.** Full datasets are available as Supplementary Data.
-
+### Paper Information:
 ### Transcription factors instruct DNA methylation patterns in plant reproductive tissues
 
 ##### Guanghui Xu<sup>1</sup>, Yuhan Chen<sup>1</sup>, Laura M. Martins<sup>1</sup>, En Li<sup>1</sup>, Fuxi Wang<sup>1</sup>, Tulio Magana<sup>1</sup>, Junlin Ruan<sup>1</sup>, and Julie A. Law<sup>1,2*</sup>
@@ -17,7 +15,9 @@ DNA methylation is maintained by forming self-reinforcing connections with other
 
 **Keywords:** DNA methylation, siRNAs, REM transcription factors, RNA-directed DNA methylation, CLSY3 
 
-### Available scripts
+### Available scripts:
+Code and example datasets used in the publication **Xu et al. Transcription factors instruct DNA methylation patterns in plant reproductive tissues (2025) Nature Cell Biology.** 
+
 #### Fig. 1b siRNA volcano plot
 - Fig.1b_volcano_plot.r
 - Description: This code generates volcano plot showing the differentially expressed siRNA clusters in rim22. Clusters that are downregulated, unaffected, and upregulated are shown as blue, black, and red circles, respectively. The number of clusters in each category is indicated in the correspondingly colored boxes. Clusters overlap with methyl-cutting assay targets are highlighted. This is the base script used to generate volcano plots for Figures 1b, 1c, 2c, 3b, 3f, 6c, 7g, and Extended Data Figures 1g, 2b, 2c, 2d, 2e, 4a, 5b, 5d, 6f, 6g, 6j.
