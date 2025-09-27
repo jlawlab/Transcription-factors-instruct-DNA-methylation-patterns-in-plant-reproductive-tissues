@@ -1,5 +1,5 @@
 ### README
-Code and example datasets used in the publication Xu et al. Transcription factors instruct DNA methylation patterns in plant reproductive tissues (2025) Nature Cell Biology. Full datasets are available as Supplementary Data.
+Code and example datasets used in the publication **Xu et al. Transcription factors instruct DNA methylation patterns in plant reproductive tissues (2025) Nature Cell Biology.** Full datasets are available as Supplementary Data.
 
 ### Transcription factors instruct DNA methylation patterns in plant reproductive tissues
 
@@ -20,5 +20,33 @@ DNA methylation is maintained by forming self-reinforcing connections with other
 ### Available scripts
 #### Fig. 1b siRNA volcano plot
 - Fig.1b_volcano_plot.r
-- Description: This code generates volcano plot showing the differentially expressed siRNA clusters in rim22. Clusters that are downregulated, unaffected, and upregulated are shown as blue, black, and red circles, respectively. The number of clusters in each category is indicated in the correspondingly colored boxes. Clusters overlap with methyl-cutting assay targets are highlighted. This is the base script to generate volcano plots in 
-- author: Guanghui Xu
+- Description: This code generates volcano plot showing the differentially expressed siRNA clusters in rim22. Clusters that are downregulated, unaffected, and upregulated are shown as blue, black, and red circles, respectively. The number of clusters in each category is indicated in the correspondingly colored boxes. Clusters overlap with methyl-cutting assay targets are highlighted. This is the base script used to generate volcano plots for Figures 1b, 1c, 2c, 3b, 3f, 6c, 7g, and Extended Data Figures 1g, 2b, 2c, 2d, 2e, 4a, 5b, 5d, 6f, 6g, 6j.
+- Example dataset: Data from Figure 1b.
+- Author: Guanghui Xu (Law lab, Salk Institute)
+
+#### Fig. 1f siRNA boxplot
+- Fig.1f_boxplot.r
+- Fig.1f_boxplot_color_settings.r
+- Description: This code generates boxplots comparing siRNA levels across multiple genotypes. This is the base script used to generate boxplots for Figures 1f, 2d, 2e, 3d, 3h, 7e, and Extended Data Figures 3a, 3d, 4c, 4d, 5c.
+- Example dataset: Data from Figure 1f.
+- Example dataset: Data from Figure 1f.
+- Author: Guanghui Xu (Law lab, Salk Institute)
+
+#### Fig. 4a DMR volcano plot
+- Fig.4a_DMR_volcano_plot.r
+- Fig.4a_DMR_volcano_plot_color_settings.r
+- Description: This code generates volcano plot of DMRs. DMRs that overlap HyperTE loci, siren loci, both, or neither are colored in blue, pink, purple, or black, respectively. The total number of hypo and hyper DMRs is indicated in black boxes in the center. The number of DMRs overlap with the above categories are shown in the correspondingly colored boxes. This is the base script used to generate DMR volcano plots for Figures 4a, 4b, and Extended Data Figures 4a.
+- Example dataset: Data from Figure 4a.
+- Author: Guanghui Xu (Law lab, Salk Institute)
+
+#### Fig. 5b siRNA heatmap
+- Fig.5b_heatmap.r
+- Description: This script generates heatmaps based on Fold Change valuse got from siRNA DEseq analysis. This is the base script used to generate siRNA heatmaps for Figures 5b and 5d
+- Example dataset: Data from Figure 5b.
+- Author: Guanghui Xu (Law lab, Salk Institute)
+
+#### Extended Data Fig. 2a REM phylogenetic tree
+- Extended_Data_Fig.2a_Phylo_Tree_Visualization_by_L.M..r
+- Extended_Data_Fig.2a_REM_phylogenetic_tree_by_L.M..bash
+- Description: This analysis reconstructs a phylogeny for 46 REM genes using two custom scripts.
+- Author: Laura M. Martins (Law lab, Salk Institute)
