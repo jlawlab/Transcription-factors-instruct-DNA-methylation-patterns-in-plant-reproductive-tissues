@@ -1,0 +1,4 @@
+fileName	sample	genotypeID	rowID	columnID
+siRNA_clusters_rim22_dep_wclsy3_n390.txt	rim22-dep w/ clsy3-dep clusters	rim22-dep w/ clsy3-dep clusters	A	I
+siRNA_clusters_rim22_dep_only_n112.txt	rim22-dep only clusters	rim22-dep only clusters	A	II
+siRNA_clusters_clsy3_dep_only_n412.txt	clsy3-dep only clusters	clsy3-dep only clusters	A	III
